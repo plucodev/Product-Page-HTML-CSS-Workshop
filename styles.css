@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 30px;
+    border-bottom: 2px solid grey;
+}
+li{
+  display: inline;
+}
+h1{
+  margin: 0;
+}
+li a{
+  text-decoration: none;
+  color: grey;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.content-left{
+  width: 60%;
+}
+.content-right{
+  width: 35%;
+}
+.thumbnails{
+  display: flex;
+  justify-content: space-between;
+}
+
+.separator{
+  border-bottom: 2px solid grey;
+  height: 10px;
+}
+.button{
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  
+}
